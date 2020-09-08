@@ -1,0 +1,71 @@
+/* color palette
+#272727 - Eerie Black
+#FED766 - Orange Yellow Crayola
+#CEEC97 - Yellow Green Crayola
+#009FB7 - Blue Munsell
+#696773 - Dim Gray
+#EFF1F3 - Cultered (white)
+#EEE1B3 - Lemon Meringue
+#F7B2AD - Melon
+#EF767A - Light Coral
+*/
+
+/* Global Styles
+-------------------------------- */
+.thumbnail {
+    width: 300px;
+}
+a {
+    color: #EEE1B3;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+-------------------------------- */
+header {
+    background: #272727;
+    color: #EFF1F3;
+}
+
+/* Projects
+-------------------------------- */
+.projects {
+    background: #009FB7;
+}
+.projects a {
+    color: #EFF1F3;
+    text-decoration: none;
+}
+.projects .btn {
+    color: #EFF1F3;
+    text-decoration: none;
+    background: #EF767A;
+    padding: 8px;
+    border-radius: 5px;
+}
+.projects a:hover {
+    padding: 6px;
+    border-radius: 5px;
+    background: rgba(239, 118, 122, 80%);
+}
+
+/* Experience
+-------------------------------- */
+.experience {
+    background: #FED766;
+}
+
+/* Education
+-------------------------------- */
+.education {
+    background: #CEEC97;
+}
+
+/* Contact Info
+-------------------------------- */
+footer {
+    background: #272727;
+    color: #EFF1F3;
+}
