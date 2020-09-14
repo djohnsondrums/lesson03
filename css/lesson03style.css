@@ -1,4 +1,5 @@
-/* color palette
+/* 
+------- color palette ------------
 #272727 - Eerie Black
 #FED766 - Orange Yellow Crayola
 #CEEC97 - Yellow Green Crayola
@@ -8,10 +9,42 @@
 #EEE1B3 - Lemon Meringue
 #F7B2AD - Melon
 #EF767A - Light Coral
+
+------------- fonts ---------------
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
 */
+
 
 /* Global Styles
 -------------------------------- */
+body {
+    background: #EFF1F3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    text-shadow: 2px 2px #009FB7;
+}
+h2 {
+    margin-left: -50px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    display: inline-block;
+    border: solid 2px #272727;
+    padding: 3px 6px;
+}
+p {
+    line-height: 1.75;
+}
 .thumbnail {
     width: 300px;
 }
@@ -21,12 +54,20 @@ a {
 a:hover {
     text-decoration: none;
 }
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
 
 /* Profile
 -------------------------------- */
 header {
     background: #272727;
     color: #EFF1F3;
+}
+header h2 {
+    border: solid thin #EFF1F3;
 }
 
 /* Projects
@@ -42,11 +83,16 @@ header {
     color: #EFF1F3;
     text-decoration: none;
     background: #EF767A;
-    padding: 8px;
+    padding: 0px 10px;
     border-radius: 5px;
 }
+.projects .btn:hover {
+    padding: 2px 12px;
+    border-radius: 5px;
+    background: rgba(239, 118, 122, 80%);
+}
 .projects a:hover {
-    padding: 6px;
+    padding: 2px 4px;
     border-radius: 5px;
     background: rgba(239, 118, 122, 80%);
 }
