@@ -19,6 +19,12 @@ font-family: 'Open Sans', sans-serif;
 
 /* Global Styles
 -------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     background: #EFF1F3;
     margin: 0;
@@ -96,7 +102,9 @@ header h2 {
     border-radius: 5px;
     background: rgba(239, 118, 122, 80%);
 }
-
+section p {
+    width: 500px;
+}
 /* Experience
 -------------------------------- */
 .experience {
