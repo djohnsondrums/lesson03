@@ -102,13 +102,25 @@ header h2 {
     border-radius: 5px;
     background: rgba(239, 118, 122, 80%);
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* this was confusing and
+    I don't understand how it works */
+}
+.thumbnail01 {
+    float: left;
+    margin-right: 25px;
+}
 section p {
-    width: 500px;
+    width: 700px;
 }
 /* Experience
 -------------------------------- */
 .experience {
     background: #FED766;
+    clear: both;
 }
 
 /* Education
