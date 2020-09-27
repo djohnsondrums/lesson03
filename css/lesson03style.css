@@ -48,6 +48,11 @@ h2 {
     border: solid 2px #272727;
     padding: 3px 6px;
 }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: -48px;
+}
 p {
     line-height: 1.75;
 }
@@ -64,6 +69,43 @@ a:hover {
     width: 800px;
     margin: 0 auto;
     padding: 50px 0;
+}
+
+/* navbar
+-------------------------------- */
+#navbar {
+    background: #CEEC97;
+}
+#navbar ul {
+    list-style: none;
+    text-align: right;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+#navbar ul li {
+    display: inline-block;
+    position: relative;
+    padding: 5px 20px;
+    position: relative;
+    cursor: pointer;
+}
+#navbar ul li:hover {
+    background:  rgba(239, 118, 122, 100%);
+}
+.submenu {
+    position: absolute;
+    padding: 0px;
+    left: -10000px;
+    top: 32px;
+}
+.submenu li {
+    width: 100%;
+    text-align: left;
+}
+#navbar ul li:hover .submenu {
+    display: block;
+    left: 0px;
+    background:  rgba(239, 118, 122, 70%);
 }
 
 /* Profile
